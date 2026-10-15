@@ -1,16 +1,18 @@
 """Setup script for the Spatio-Temporal GNN & Active Learning Pipeline."""
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+    requirements = [
+        line.strip() for line in fh if line.strip() and not line.startswith("#")
+    ]
 
 setup(
     name="satellite-change-detection",
-    version="0.1.0",
+    version="0.1.1",
     author="AI/GIS Research Engineer",
     author_email="research@example.com",
     description="A Spatio-Temporal GNN & Active Learning Pipeline for Satellite Environmental Change Detection",
