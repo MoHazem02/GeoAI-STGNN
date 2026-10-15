@@ -10,6 +10,20 @@ A research-grade GeoAI framework for detecting environmental anomalies (wildfire
 
 ---
 
+## [Unreleased]
+
+### Added
+- Initial release of GeoAI-STGNN framework
+- Spatio-Temporal Graph Neural Network implementation
+- Synthetic data generator for Sentinel-2-like satellite data
+- Active Learning module with multiple uncertainty sampling strategies
+- Interactive Streamlit web application
+- Comprehensive test suite with pytest
+- Detailed documentation including architecture, API, and user guide
+- Docker support for containerization
+- CI/CD configuration with GitHub Actions
+- Setup script for package installation
+
 ## 🌍 Problem Formulation & Agentic GeoAI Context
 
 In Earth Observation (EO), satellite constellations like **Sentinel-2 (MSI)** revisit Earth locations at high cadence (5-day revisit), yielding multi-spectral spatio-temporal data cubes. However, ground-truth change validation (e.g., post-disaster field inspection or high-resolution drone photo-interpretation) is prohibitively expensive.
