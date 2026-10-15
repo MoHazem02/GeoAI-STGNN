@@ -10,19 +10,11 @@ A research-grade GeoAI framework for detecting environmental anomalies (wildfire
 
 ---
 
-## [Unreleased]
+<img width="1881" height="744" alt="image" src="https://github.com/user-attachments/assets/bce8f5ff-22f9-4de6-8db2-a5d8c97a895b" />
 
-### Added
-- Initial release of GeoAI-STGNN framework
-- Spatio-Temporal Graph Neural Network implementation
-- Synthetic data generator for Sentinel-2-like satellite data
-- Active Learning module with multiple uncertainty sampling strategies
-- Interactive Streamlit web application
-- Comprehensive test suite with pytest
-- Detailed documentation including architecture, API, and user guide
-- Docker support for containerization
-- CI/CD configuration with GitHub Actions
-- Setup script for package installation
+
+<img width="1870" height="841" alt="image" src="https://github.com/user-attachments/assets/4b9c6761-22b7-4c74-9332-dcce268cb445" />
+
 
 ## 🌍 Problem Formulation & Agentic GeoAI Context
 
@@ -240,4 +232,4 @@ We welcome contributions! Please see our [contributing guidelines](docs/contribu
 
 ## 📧 Contact
 
-For questions or feedback, please open an issue or contact the maintainers.
+For questions or feedback, please open an issue or contact the me at mohamed.hazem.abdelmaksood@gmail.com.
